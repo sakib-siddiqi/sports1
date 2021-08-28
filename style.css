@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&display=swap");
+* {
+    font-family: "Montserrat", sans-serif;
+}
+:root {
+    --bg: #ebe7ff;
+    --text: #8466B5;
+    --head-bg: linear-gradient(87.6deg, #ffacc0 0%, #d5a0ff 53.13%, #ffacc0 100%);
+    --btn-bg: linear-gradient(85.75deg, #8f39ff 0%, rgba(156, 80, 255, 0.75) 100%);
+    --fb: linear-gradient(45deg, #4886ff 0%, #8da6ff 100%);
+    --instra: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285aeb 90%);
+    --yt: linear-gradient(45deg, #ff000f 0%, #ff515b 100%);
+    --shadow: 0px 25px 25px -10px rgba(0, 0, 0, 0.05);
+    --glass: linear-gradient(87.17deg, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0.3) 100%);
+}
+body{
+    background: var(--bg);
+}
+a{
+    text-decoration: none;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.glass{
+    background: var(--glass);
+}
+.mshadow{
+    box-shadow: var(--shadow);
+}
+.fb{
+    background: var(--fb);
+}
+.instra{
+    background: var(--instra);
+}
+.yt{
+    background: var(--yt);
+}
+.myBtn{
+    background: var(--btn-bg);
+}
+header {
+    background: var(--head-bg);
+}
+#img{
+    width: 50%;
+}
+.input-group {
+    max-width: 600px;
+    margin: auto;
+}
+.input-group input,
+.input-group button {
+    background: var(--glass) !important;
+    border: none;
+    padding: 10px;
+    border-radius: 0px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: rgb(50, 38, 117);
+}
+.input-group input:focus,
+.input-group button:focus {
+    box-shadow: none;
+}
+.torpName{
+    color: var(--text);
+    font-weight: 700;
+    letter-spacing: 0.07em;
+}
+.mybtn{
+    background: var(--btn-bg);
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: white;
+    border: none;
+    outline: none;
+    padding: 8px 18px;
+}
+.mybtn:hover{
+    box-shadow: var(--shadow);
+}
+#description{
+    font-size: 15px;
+}
+.social_box{
+    flex-direction: column;
+}
+.social{
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+    color: white;
+    font-size: 24px;
+    border-radius: 3px;
+}
