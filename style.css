@@ -46,7 +46,7 @@ header {
     background: var(--head-bg);
 }
 #img{
-    width: 50%;
+    max-width: 250px;
 }
 .input-group {
     max-width: 600px;

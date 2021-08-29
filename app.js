@@ -36,7 +36,7 @@ async function searchByName(lowEnterValue) {
     }else if(players !==null){
         showPlayers(players);
     }else{
-        console.log('hello')
+        teamsHTML.innerHTML=`<p class="d-block m-auto btn btn-danger disabled fw-bold shadow" style="max-width:300px">Oh no ..!  Nothing to show</p>`;
     }
     
 }
